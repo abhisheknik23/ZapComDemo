@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		576DE23DE3B41CD7B63B8D3F /* Pods_ZapComUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91DA6DDCEDF1FC73D05B19B4 /* Pods_ZapComUITests.framework */; };
+		7706D0C4232AAF7F00A40B53 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C1232AAF7C00A40B53 /* Content.swift */; };
+		7706D0C5232AAF7F00A40B53 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C1232AAF7C00A40B53 /* Content.swift */; };
+		7706D0C6232AAF7F00A40B53 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C1232AAF7C00A40B53 /* Content.swift */; };
+		7706D0C7232AAF7F00A40B53 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C2232AAF7E00A40B53 /* DataModel.swift */; };
+		7706D0C8232AAF7F00A40B53 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C2232AAF7E00A40B53 /* DataModel.swift */; };
+		7706D0C9232AAF7F00A40B53 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C2232AAF7E00A40B53 /* DataModel.swift */; };
+		7706D0CA232AAF7F00A40B53 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C3232AAF7F00A40B53 /* Products.swift */; };
+		7706D0CB232AAF7F00A40B53 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C3232AAF7F00A40B53 /* Products.swift */; };
+		7706D0CC232AAF7F00A40B53 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C3232AAF7F00A40B53 /* Products.swift */; };
 		77B82B752322D54200EC906D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B82B742322D54200EC906D /* AppDelegate.swift */; };
 		77B82B772322D54200EC906D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B82B762322D54200EC906D /* ViewController.swift */; };
 		77B82B7A2322D54200EC906D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B82B782322D54200EC906D /* Main.storyboard */; };
@@ -15,6 +25,8 @@
 		77B82B822322D54300EC906D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B82B802322D54300EC906D /* LaunchScreen.storyboard */; };
 		77B82B8D2322D54400EC906D /* ZapComTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B82B8C2322D54400EC906D /* ZapComTests.swift */; };
 		77B82B982322D54400EC906D /* ZapComUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B82B972322D54400EC906D /* ZapComUITests.swift */; };
+		A696182F504331DF1356CAC5 /* Pods_ZapCom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6671DBA545864363CCBD453 /* Pods_ZapCom.framework */; };
+		D1FD471180D2C098EB57008F /* Pods_ZapComTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7B2C7D054F6C47D513CE2F0 /* Pods_ZapComTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27F1A0411506FD48AD816A3A /* Pods-ZapCom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapCom.debug.xcconfig"; path = "Target Support Files/Pods-ZapCom/Pods-ZapCom.debug.xcconfig"; sourceTree = "<group>"; };
+		5C1653C484EDA9747FA86F41 /* Pods-ZapComUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapComUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZapComUITests/Pods-ZapComUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7706D0C1232AAF7C00A40B53 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		7706D0C2232AAF7E00A40B53 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7706D0C3232AAF7F00A40B53 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
 		77B82B712322D54200EC906D /* ZapCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZapCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B82B742322D54200EC906D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77B82B762322D54200EC906D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,13 @@
 		77B82B932322D54400EC906D /* ZapComUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZapComUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B82B972322D54400EC906D /* ZapComUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZapComUITests.swift; sourceTree = "<group>"; };
 		77B82B992322D54400EC906D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91DA6DDCEDF1FC73D05B19B4 /* Pods_ZapComUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZapComUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92BEAE6C54D50BD7F72E2DCF /* Pods-ZapComTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapComTests.debug.xcconfig"; path = "Target Support Files/Pods-ZapComTests/Pods-ZapComTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4576AA67E295AB0313FF4EC /* Pods-ZapComUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapComUITests.release.xcconfig"; path = "Target Support Files/Pods-ZapComUITests/Pods-ZapComUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6671DBA545864363CCBD453 /* Pods_ZapCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZapCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C150509BEB5A937850D07BF4 /* Pods-ZapCom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapCom.release.xcconfig"; path = "Target Support Files/Pods-ZapCom/Pods-ZapCom.release.xcconfig"; sourceTree = "<group>"; };
+		E7B2C7D054F6C47D513CE2F0 /* Pods_ZapComTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZapComTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6AC49AF258B6E99B76B0346 /* Pods-ZapComTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZapComTests.release.xcconfig"; path = "Target Support Files/Pods-ZapComTests/Pods-ZapComTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A696182F504331DF1356CAC5 /* Pods_ZapCom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1FD471180D2C098EB57008F /* Pods_ZapComTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576DE23DE3B41CD7B63B8D3F /* Pods_ZapComUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49909B651FF3F9E3069D20BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6671DBA545864363CCBD453 /* Pods_ZapCom.framework */,
+				E7B2C7D054F6C47D513CE2F0 /* Pods_ZapComTests.framework */,
+				91DA6DDCEDF1FC73D05B19B4 /* Pods_ZapComUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77B82B682322D54200EC906D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				77B82B8B2322D54400EC906D /* ZapComTests */,
 				77B82B962322D54400EC906D /* ZapComUITests */,
 				77B82B722322D54200EC906D /* Products */,
+				DED8221C77455D628EC2C095 /* Pods */,
+				49909B651FF3F9E3069D20BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +139,13 @@
 			isa = PBXGroup;
 			children = (
 				77B82B742322D54200EC906D /* AppDelegate.swift */,
-				77B82B762322D54200EC906D /* ViewController.swift */,
-				77B82B782322D54200EC906D /* Main.storyboard */,
+				77B82BA62322D55E00EC906D /* Model */,
+				77B82BA82322D56B00EC906D /* View */,
+				77B82BA72322D56300EC906D /* ViewModel */,
+				77B82BA52322D55200EC906D /* Controller */,
+				77B82BAA2322D58400EC906D /* Extensions */,
+				77B82BA92322D57B00EC906D /* Resources */,
 				77B82B7E2322D54300EC906D /* Assets.xcassets */,
-				77B82B802322D54300EC906D /* LaunchScreen.storyboard */,
 				77B82B832322D54300EC906D /* Info.plist */,
 				77B82B7B2322D54200EC906D /* ZapCom.xcdatamodeld */,
 			);
@@ -128,6 +170,67 @@
 			path = ZapComUITests;
 			sourceTree = "<group>";
 		};
+		77B82BA52322D55200EC906D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77B82B762322D54200EC906D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77B82BA62322D55E00EC906D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7706D0C1232AAF7C00A40B53 /* Content.swift */,
+				7706D0C2232AAF7E00A40B53 /* DataModel.swift */,
+				7706D0C3232AAF7F00A40B53 /* Products.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77B82BA72322D56300EC906D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		77B82BA82322D56B00EC906D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77B82B782322D54200EC906D /* Main.storyboard */,
+				77B82B802322D54300EC906D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77B82BA92322D57B00EC906D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77B82BAA2322D58400EC906D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DED8221C77455D628EC2C095 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F1A0411506FD48AD816A3A /* Pods-ZapCom.debug.xcconfig */,
+				C150509BEB5A937850D07BF4 /* Pods-ZapCom.release.xcconfig */,
+				92BEAE6C54D50BD7F72E2DCF /* Pods-ZapComTests.debug.xcconfig */,
+				F6AC49AF258B6E99B76B0346 /* Pods-ZapComTests.release.xcconfig */,
+				5C1653C484EDA9747FA86F41 /* Pods-ZapComUITests.debug.xcconfig */,
+				A4576AA67E295AB0313FF4EC /* Pods-ZapComUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77B82B9C2322D54400EC906D /* Build configuration list for PBXNativeTarget "ZapCom" */;
 			buildPhases = (
+				3910EAE1FB21B903F50C09A0 /* [CP] Check Pods Manifest.lock */,
 				77B82B6D2322D54200EC906D /* Sources */,
 				77B82B6E2322D54200EC906D /* Frameworks */,
 				77B82B6F2322D54200EC906D /* Resources */,
+				485DC5987946E88024F7D680 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +257,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77B82B9F2322D54400EC906D /* Build configuration list for PBXNativeTarget "ZapComTests" */;
 			buildPhases = (
+				66CFD193D801C72A471DD68D /* [CP] Check Pods Manifest.lock */,
 				77B82B842322D54400EC906D /* Sources */,
 				77B82B852322D54400EC906D /* Frameworks */,
 				77B82B862322D54400EC906D /* Resources */,
@@ -170,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77B82BA22322D54400EC906D /* Build configuration list for PBXNativeTarget "ZapComUITests" */;
 			buildPhases = (
+				43C7FC1D438EDCADCD5000D7 /* [CP] Check Pods Manifest.lock */,
 				77B82B8F2322D54400EC906D /* Sources */,
 				77B82B902322D54400EC906D /* Frameworks */,
 				77B82B912322D54400EC906D /* Resources */,
@@ -254,6 +361,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3910EAE1FB21B903F50C09A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZapCom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43C7FC1D438EDCADCD5000D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZapComUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485DC5987946E88024F7D680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZapCom/Pods-ZapCom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZapCom/Pods-ZapCom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZapCom/Pods-ZapCom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66CFD193D801C72A471DD68D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZapComTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77B82B6D2322D54200EC906D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +455,9 @@
 				77B82B7D2322D54200EC906D /* ZapCom.xcdatamodeld in Sources */,
 				77B82B772322D54200EC906D /* ViewController.swift in Sources */,
 				77B82B752322D54200EC906D /* AppDelegate.swift in Sources */,
+				7706D0CA232AAF7F00A40B53 /* Products.swift in Sources */,
+				7706D0C7232AAF7F00A40B53 /* DataModel.swift in Sources */,
+				7706D0C4232AAF7F00A40B53 /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +466,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B82B8D2322D54400EC906D /* ZapComTests.swift in Sources */,
+				7706D0CB232AAF7F00A40B53 /* Products.swift in Sources */,
+				7706D0C5232AAF7F00A40B53 /* Content.swift in Sources */,
+				7706D0C8232AAF7F00A40B53 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +477,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B82B982322D54400EC906D /* ZapComUITests.swift in Sources */,
+				7706D0CC232AAF7F00A40B53 /* Products.swift in Sources */,
+				7706D0C6232AAF7F00A40B53 /* Content.swift in Sources */,
+				7706D0C9232AAF7F00A40B53 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +636,7 @@
 		};
 		77B82B9D2322D54400EC906D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F1A0411506FD48AD816A3A /* Pods-ZapCom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +654,7 @@
 		};
 		77B82B9E2322D54400EC906D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C150509BEB5A937850D07BF4 /* Pods-ZapCom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +672,7 @@
 		};
 		77B82BA02322D54400EC906D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92BEAE6C54D50BD7F72E2DCF /* Pods-ZapComTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +693,7 @@
 		};
 		77B82BA12322D54400EC906D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AC49AF258B6E99B76B0346 /* Pods-ZapComTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +714,7 @@
 		};
 		77B82BA32322D54400EC906D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C1653C484EDA9747FA86F41 /* Pods-ZapComUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +734,7 @@
 		};
 		77B82BA42322D54400EC906D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4576AA67E295AB0313FF4EC /* Pods-ZapComUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

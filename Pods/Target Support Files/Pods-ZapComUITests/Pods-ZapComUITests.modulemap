@@ -1,0 +1,6 @@
+framework module Pods_ZapComUITests {
+  umbrella header "Pods-ZapComUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
