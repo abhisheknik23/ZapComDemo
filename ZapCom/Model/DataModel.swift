@@ -8,10 +8,10 @@
 
 import Foundation
 struct DataModel : Codable {
-	let code : String
-	let content : [Content]
+	let code : String?
+	let content : [Content]?
     
-	init(code : String, content : [Content]){
+	init(code : String?, content : [Content]?){
 		self.code = code
         self.content = content
 	}

@@ -17,6 +17,12 @@
 		7706D0CA232AAF7F00A40B53 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C3232AAF7F00A40B53 /* Products.swift */; };
 		7706D0CB232AAF7F00A40B53 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C3232AAF7F00A40B53 /* Products.swift */; };
 		7706D0CC232AAF7F00A40B53 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706D0C3232AAF7F00A40B53 /* Products.swift */; };
+		77483935232BFD33003722A4 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77483934232BFD33003722A4 /* DataViewModel.swift */; };
+		77483936232BFD33003722A4 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77483934232BFD33003722A4 /* DataViewModel.swift */; };
+		77483937232BFD33003722A4 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77483934232BFD33003722A4 /* DataViewModel.swift */; };
+		7748393A232BFD59003722A4 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77483939232BFD59003722A4 /* Webservice.swift */; };
+		7748393B232BFD59003722A4 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77483939232BFD59003722A4 /* Webservice.swift */; };
+		7748393C232BFD59003722A4 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77483939232BFD59003722A4 /* Webservice.swift */; };
 		77B82B752322D54200EC906D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B82B742322D54200EC906D /* AppDelegate.swift */; };
 		77B82B772322D54200EC906D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B82B762322D54200EC906D /* ViewController.swift */; };
 		77B82B7A2322D54200EC906D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B82B782322D54200EC906D /* Main.storyboard */; };
@@ -52,6 +58,8 @@
 		7706D0C1232AAF7C00A40B53 /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		7706D0C2232AAF7E00A40B53 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		7706D0C3232AAF7F00A40B53 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		77483934232BFD33003722A4 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		77483939232BFD59003722A4 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		77B82B712322D54200EC906D /* ZapCom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZapCom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B82B742322D54200EC906D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77B82B762322D54200EC906D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +121,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		77483938232BFD38003722A4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				77483939232BFD59003722A4 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		77B82B682322D54200EC906D = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +154,7 @@
 		77B82B732322D54200EC906D /* ZapCom */ = {
 			isa = PBXGroup;
 			children = (
+				77483938232BFD38003722A4 /* Services */,
 				77B82B742322D54200EC906D /* AppDelegate.swift */,
 				77B82BA62322D55E00EC906D /* Model */,
 				77B82BA82322D56B00EC906D /* View */,
@@ -191,6 +208,7 @@
 		77B82BA72322D56300EC906D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				77483934232BFD33003722A4 /* DataViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -454,9 +472,11 @@
 			files = (
 				77B82B7D2322D54200EC906D /* ZapCom.xcdatamodeld in Sources */,
 				77B82B772322D54200EC906D /* ViewController.swift in Sources */,
+				7748393A232BFD59003722A4 /* Webservice.swift in Sources */,
 				77B82B752322D54200EC906D /* AppDelegate.swift in Sources */,
 				7706D0CA232AAF7F00A40B53 /* Products.swift in Sources */,
 				7706D0C7232AAF7F00A40B53 /* DataModel.swift in Sources */,
+				77483935232BFD33003722A4 /* DataViewModel.swift in Sources */,
 				7706D0C4232AAF7F00A40B53 /* Content.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,8 +487,10 @@
 			files = (
 				77B82B8D2322D54400EC906D /* ZapComTests.swift in Sources */,
 				7706D0CB232AAF7F00A40B53 /* Products.swift in Sources */,
+				7748393B232BFD59003722A4 /* Webservice.swift in Sources */,
 				7706D0C5232AAF7F00A40B53 /* Content.swift in Sources */,
 				7706D0C8232AAF7F00A40B53 /* DataModel.swift in Sources */,
+				77483936232BFD33003722A4 /* DataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,8 +500,10 @@
 			files = (
 				77B82B982322D54400EC906D /* ZapComUITests.swift in Sources */,
 				7706D0CC232AAF7F00A40B53 /* Products.swift in Sources */,
+				7748393C232BFD59003722A4 /* Webservice.swift in Sources */,
 				7706D0C6232AAF7F00A40B53 /* Content.swift in Sources */,
 				7706D0C9232AAF7F00A40B53 /* DataModel.swift in Sources */,
+				77483937232BFD33003722A4 /* DataViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

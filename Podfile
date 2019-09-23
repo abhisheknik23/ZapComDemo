@@ -7,6 +7,7 @@ target 'ZapCom' do
 
   # Pods for ZapCom
   pod 'SDWebImage', '~> 5.0'
+  pod 'ReachabilitySwift'
   target 'ZapComTests' do
     inherit! :search_paths
     # Pods for testing
