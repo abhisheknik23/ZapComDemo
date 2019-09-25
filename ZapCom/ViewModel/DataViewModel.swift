@@ -8,6 +8,36 @@
 
 import Foundation
 
-class DataViewModel {
+struct DataViewModel {
     
+    let content: Content
 }
+
+extension DataViewModel {
+    
+    var sectionType: String {
+        return content.sectionType!
+    }
+    
+    var name: String {
+        
+        return content.name!
+    }
+    
+    var product: Array<Any> {
+        return content.products!
+    }
+    
+    var bannerImage: String {
+        return content.bannerImage!
+    }
+    
+    var firstImage: String {
+        return content.firstImage!
+    }
+    
+    var secondImage: String {
+        return content.secondImage!
+    }
+}
+
